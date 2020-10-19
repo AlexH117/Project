@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/logo_size.png">
+    <title>Balance General</title>
+    <script src="jquery.min.js" type="text/javascript"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>.thumbnail{ height: 185px;}
+    </style>
+  </head>
+  <body>
+    <div class="container text-center">
+      <br/>
+      <div class="row">
+        <div class="col-md-3"><img src="images/logo_size.png"/></div>
+        <br>
+        <div class="col-md-6"><h2><div id="Puntaje">Puntos: 0</div></div>
+        <div class="col-md-9">
+          <p>Developed by:
+            <br>
+            Tyeisha Ivanna Koh Martin
+            <br/>
+            Peter Alejandro Perez Chel
+            <br/>
+            Jorge Alejandro Herrera Solís
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4" id="DragBalance" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="col-md-4"></div>
+      </div>
+      <div class="row text-center" id="balance"></div>
+    </div>
+    Iconos diseñados por <a href="https://www.flaticon.es/autores/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a>
+  </body>
+  <script src="script/script.js"></script>
+</html>

@@ -1,0 +1,14 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+img, logo_size {
+  width: 150px;
+  height: 150px;
+}
+
+.col-md-9 {
+  text-align: right;
+}
